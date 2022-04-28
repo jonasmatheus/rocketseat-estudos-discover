@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando tabelas</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.4em;
+            border: 1px solid black;
+            background-color: rgb(176, 241, 219);
+            color: black;
+            padding: 5px;
+        }
+        th, td{
+            border: 1px solid gray;
+            padding: 8px;
+            color: black;
+        }
+        table th{
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tabelas</h1>
+
+    <table>
+        <caption>Os 10 municípios mais populosos da Bahia:</caption>
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>Município</th>
+                <th>População</th>
+                <th>% em relação à posição do estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Salvador</td>
+                <td>2.900.319</td>
+                <td>19,35%</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Feira de Santana</td>
+                <td>624.107</td>
+                <td>4,16%</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Vitória da Conquista</td>
+                <td>343.643</td>
+                <td>2,29%</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Camaçari</td>
+                <td>309.208</td>
+                <td>2,06%</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Juazeiro</td>
+                <td>219.544</td>
+                <td>1,47%</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Itabuna</td>
+                <td>214.123</td>
+                <td>1,43%</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Lauro de Freitas</td>
+                <td>204.669</td>
+                <td>1,37%</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Teixeira de Freitas</td>
+                <td>164.290</td>
+                <td>1,10%</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Barreiras</td>
+                <td>158.432</td>
+                <td>1,06%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Ilhéus</td>
+                <td>157.639</td>
+                <td>1,05%</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="2">Total</th>
+            <td>5.295.974</td>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
