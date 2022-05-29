@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    caption{
+        font-weight: bold;
+        font-style: italic;
+    }
+    table{
+        border-collapse: separate;
+        width: 400px;
+        border: 1px solid black;
+    }
+    th, td {
+        border: 1px solid black;
+    }
+    .cidades{
+        font-style: oblique;
+    }
+</style>
+<body>
+    <table>
+        <caption>Sudeste x Sul</caption>
+
+        <thead>
+            <th colspan="2">Estados</th>
+            <th>Cidades</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="5">Sudeste</td>
+                <td rowspan="1">São Paulo</td>
+                <td class="cidades"> São Paulo <br> Guarulhos <br> Campinas </td>
+            </tr>
+            <tr>
+                <td rowspan="2">Rio de Janeiro</td>
+            </tr>
+            <tr>
+                <td class="cidades"> Rio de Janeiro <br> São Gonçalo <br> Duque de Caxias</td>
+            </tr>
+            <tr>
+                <td rowspan="1">Minas Gerais</td>
+                <td class="cidades">Belo Horizonte <br> Uberlândia <br> Contagem</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Espírito Santo</td>
+                <td class="cidades">Vila Velha <br> Serra <br> Cariacica</td>
+            </tr>
+        </tbody>
+    </table>  
+</body>
+</html>
